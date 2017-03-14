@@ -29,4 +29,8 @@ public class Cat extends Animal{
     public void getInfo(){
         System.out.printf("The cat is %d tall and %d years old\n", height,age);
     }
+    
+    public void scratch(){
+        System.out.println("Scratch");
+    }
 }
