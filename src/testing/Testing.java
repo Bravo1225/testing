@@ -9,11 +9,17 @@ public class Testing {
      */
     public static void main(String[] args) {
         
-        Animal Dog = new Dog();
-        Animal Cat = new Cat();
+        Dog Dog = new Dog(30,14);
+        Cat Cat = new Cat();
         
         Dog.attack();
         Cat.attack();
+        
+        Dog.sound();
+        Cat.sound();
+        
+        Dog.getInfo();
+        Cat.getInfo();
     
     }
     
