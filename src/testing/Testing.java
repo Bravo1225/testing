@@ -20,6 +20,8 @@ public class Testing {
         
         Dog.getInfo();
         Cat.getInfo();
+        
+        Dog.yell();
     
     }
     
