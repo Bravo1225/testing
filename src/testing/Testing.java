@@ -22,6 +22,7 @@ public class Testing {
         Cat.getInfo();
         
         Dog.yell();
+        Cat.scratch();
     
     }
     
