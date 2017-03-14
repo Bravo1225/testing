@@ -27,7 +27,7 @@ public class Dog extends Animal{
     }
     
     public void getInfo(){
-        System.out.printf("The dog is %d tall and %d years old", height,age);
+        System.out.printf("The dog is %d tall and %d years old\n", height,age);
     }
     
 }

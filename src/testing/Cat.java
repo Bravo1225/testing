@@ -14,18 +14,19 @@ public class Cat extends Animal{
         super(height,age);
     }
     Cat(){
-        super();
+        height = 1;
+        age = 1;
     }
     
     public void sound(){
-        System.out.println("Bark barkb");
+        System.out.println("Meow Meow");
     }
     
     public void attack(){
-        System.out.println("The dog attacksb");
+        System.out.println("The cat attacks");
     }
     
     public void getInfo(){
-        System.out.printf("The dog is %d tall and %d years oldb", height,age);
+        System.out.printf("The cat is %d tall and %d years old\n", height,age);
     }
 }
